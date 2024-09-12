@@ -1,10 +1,21 @@
-*{
-    /* outline: red 1px solid; */
-}
+
 body{
     background: #020912;
 }
 .head-icons svg{
     width: 55px;
     height: 55px;
+}
+.view-btn{
+    width: 200px;
+    border-radius: 50px;
+}
+.view-btn a{
+    font-size: .9em;
+}
+/* FOR TABLES AND MOBILE DEVICE SCREEN SIZE MEDIA QUERIES */
+@media only screen and (max-width: 768px){
+    #1st-page #head-title{
+        font-size: 35px;
+    }
 }
