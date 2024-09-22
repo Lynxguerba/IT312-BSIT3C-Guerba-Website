@@ -1,0 +1,25 @@
+#head_title {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 60px;
+}
+img[alt="head-icon-1"] {
+  width: 50px;
+  height: 50px;
+}
+img[alt="head-icon-2"] {
+  width: 54px;
+  height: 54px;
+}
+#btn-info {
+  width: 210px;
+  color: white;
+  border-radius: 30px;
+}
+#btn-info:hover {
+  color: black;
+}
+img[alt="arrow-right"] {
+  width: 50px;
+  height: 25px;
+}
+                
