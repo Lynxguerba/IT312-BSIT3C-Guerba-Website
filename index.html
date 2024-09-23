@@ -23,32 +23,67 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <!-- BOOTSTRAP ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
 
     <!-- FONT AWESOME -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- EXTERNAL CSS  -->
     <link rel="stylesheet" type="text/css" href="../public/style/style.css" />
     <!-- ================= -->
     <link rel="stylesheet" href="../public/style/main.css" />
     <!-- ================= -->
-    <link rel="stylesheet" href="../public/style/aboutMe.css">
+    <link rel="stylesheet" href="../public/style/aboutMe.css" />
+    <!-- ================= -->
+    <link rel="stylesheet" href="../public/style/credentials.css" />
+    <!-- ================= -->
+    <link rel="stylesheet" href="../public/style/mission-vision.css" />
     <!-- END CODE EXTERNAL CSS -->
   </head>
   <body>
-    <!-- MAIN  CONTENT -->
-    <div id="main-content"></div>
-    <div id="aboutMe-content"></div>
+    <!-- WEB PAGES -->
+    <div id="main-page"></div>
+    <div id="aboutMe-page"></div>
+    <div id="credentials-page"></div>
+    <div id="mission-vision-page"></div>
 
     <script>
+      // JQUERY
       // MAIN CONTENT
       $(document).ready(function () {
         // MAIN CONTENT
-        $("#main-content").load("../public/pages/main.html");
+        $("#main-page").load("../public/pages/main.html");
         // ABOUT ME
-        $("#aboutMe-content").load("../public/pages/aboutMe.html");
+        $("#aboutMe-page").load("../public/pages/aboutMe.html");
+        // CREDENTIALS
+        $("#credentials-page").load("../public/pages/credentials.html");
+        // MISSION VISION
+        $("#mission-vision-page").load("../public/pages/mission-vision.html");
       });
     </script>
   </body>

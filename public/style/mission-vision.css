@@ -1,0 +1,16 @@
+.mv {
+  background: #020912;
+  width: 480px;
+  height: 350px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px #232932;
+  padding: 30px;
+}
+img[alt="mission"] {
+  width: 40px;
+  height: 40px;
+}
+img[alt="vision"] {
+  width: 40px;
+  height: 40px;
+}

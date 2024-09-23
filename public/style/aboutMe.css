@@ -1,0 +1,10 @@
+#head-title-about-me p {
+  font-family: "Archivo", sans-serif;
+}
+#about-me-details {
+  font-family: "Anaheim", sans-serif;
+  text-align: justify;
+}
+img[alt="about-me-img"] {
+  width: 400px;
+}
