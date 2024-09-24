@@ -1,9 +1,6 @@
 body {
   background: #020912;
 }
-html {
-  scroll-behavior: smooth;
-}
 * {
   /* outline: 1px solid red; */
   scrollbar-width: thin;

@@ -1,0 +1,14 @@
+.view-btn {
+  width: 130px;
+  font-size: 1.2em;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+.view-btn:hover {
+  outline: 1px solid #00d1ff;
+  background: none;
+  color: white;
+}
+img[alt="img-project"] {
+  width: 400px;
+}
