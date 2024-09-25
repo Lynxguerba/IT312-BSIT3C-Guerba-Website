@@ -1,6 +1,9 @@
 // PAGES
 $(document).ready(function () {
-  // MAIN CONTENT
+  // BACKGROUND
+  $("#background").load("../public/pages/background.html");
+
+  // MAIN PAGE
   $("#main-page").load("../public/pages/main.html");
   // ABOUT ME
   $("#aboutMe-page").load("../public/pages/aboutMe.html");
@@ -12,4 +15,6 @@ $(document).ready(function () {
   $("#project-page").load("../public/pages/project.html");
   // SERVICES
   $("#services-page").load("../public/pages/services.html");
+  // FOOTER
+  $("#footer-page").load("../public/pages/footer.html");
 });
